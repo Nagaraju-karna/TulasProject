@@ -1,4 +1,4 @@
-import { DivHerosBg, DivBgContainerheadAndImg, HeadTitleDehradun, HeadofHashTitle, ParaCoEduction, ImageArrow, DivRankingHash, DivBgContainerRanking, ImageRanking, DivSportBgContainer, ImageBuildings, DivStudentSportsContainer, DivEductionStudent, ImageStudentLogoEdus, DivCampus, ParaNumber, ImageStudentLogoEdu, DivImageStudentSection, ImageBuilding, ParaCrack, HeadOfVideo, ImageStudent, ParaSchoolDes, VideoPlayer, ImageSportLogo, DivSlick, SportsDiv, DivFututreTulas, SpanSport1, SpanSport2, HeadTitleOfSport, ImageBenifitss, HeadinfTitleTulas, SpanEle, HeadingFuture, HeadingTulas, DivLogoAndBenifitsContainer, ImageBenifits, ParaSportDes, HeadTitle, ParaDescriptionOftitle, ButtonEnqire, LabelEleCheckBox, InputEnterOtp, DivCheckBoxContainer, HeadingStudent, InputEleClass, ButtonVerify, DivOtpContainer, DivBtnEnterOtpContainer, InputEleNumb, ButtonOtp, ParaCounry, InputELE, Hr, DivEleInput, DivDetailsContactUss, DivDetailsContactUs, ImageLogo, IoMdMails, IoMdCalls, UnorderList, HeadingContact, DivContactUSContainer, ParaDescription, DivFormContainer, IoLocations, TbDeviceLandlinePhones, ImageLogoSchool, DivSchoolImg, HeadingForm, DivFormRegister } from './styledComponents'
+import { DivHerosBg,BgContainerAll, DivBgContainerheadAndImg, HeadTitleDehradun, HeadofHashTitle, ParaCoEduction, ImageArrow, DivRankingHash, DivBgContainerRanking, ImageRanking, DivSportBgContainer, ImageBuildings, DivStudentSportsContainer, DivEductionStudent, ImageStudentLogoEdus, DivCampus, ParaNumber, ImageStudentLogoEdu, DivImageStudentSection, ImageBuilding, ParaCrack, HeadOfVideo, ImageStudent, ParaSchoolDes, VideoPlayer, ImageSportLogo, DivSlick, SportsDiv, DivFututreTulas, SpanSport1, SpanSport2, HeadTitleOfSport, ImageBenifitss, HeadinfTitleTulas, SpanEle, HeadingFuture, HeadingTulas, DivLogoAndBenifitsContainer, ImageBenifits, ParaSportDes, HeadTitle, ParaDescriptionOftitle, ButtonEnqire, LabelEleCheckBox, InputEnterOtp, DivCheckBoxContainer, HeadingStudent, InputEleClass, ButtonVerify, DivOtpContainer, DivBtnEnterOtpContainer, InputEleNumb, ButtonOtp, ParaCounry, InputELE, Hr, DivEleInput, DivDetailsContactUss, DivDetailsContactUs, ImageLogo, IoMdMails, IoMdCalls, UnorderList, HeadingContact, DivContactUSContainer, ParaDescription, DivFormContainer, IoLocations, TbDeviceLandlinePhones, ImageLogoSchool, DivSchoolImg, HeadingForm, DivFormRegister } from './styledComponents'
 
 
 import ReactPlayer from 'react-player'
@@ -103,7 +103,7 @@ const videos = "https://assets.tulas.edu.in/Desktop_TIS.mp4"
 
 const HeroSection = () => {
     return (
-        <>
+        <BgContainerAll>
 
             <Header />
             <DivHerosBg>
@@ -272,7 +272,7 @@ const HeroSection = () => {
                     </DivRankingHash>
                     <DivBgContainerheadAndImg>
                         <DivRankingHash>
-                            <HeadofHashTitle>#2</HeadofHashTitle>
+                            <HeadofHashTitle>#</HeadofHashTitle>
                             <HeadTitleDehradun>In Dehradun</HeadTitleDehradun>
                             <ParaCoEduction>Co-Eductional Boarding<br />School in Dehradum by<br />Eduction Today</ParaCoEduction>
                         </DivRankingHash>
@@ -292,7 +292,7 @@ const HeroSection = () => {
 
 
 
-        </>
+        </BgContainerAll>
     )
 }
 

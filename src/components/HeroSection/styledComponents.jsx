@@ -8,6 +8,11 @@ import { MdLocationOn } from "react-icons/md";
 
 import { TbDeviceLandlinePhone } from "react-icons/tb";
 
+
+export const BgContainerAll = styled.div`
+padding:0px;
+`
+
 export const DivHerosBg = styled.div`
 background-color:#B90124;
 display:flex;
@@ -65,12 +70,13 @@ display:flex;
 `
 
 export const DivContactUSContainer = styled.div`
-height:90%;
+height:100%;
 width:40%;
 border-radius:20px;
 background-color:#ffffff;
 padding:20px;
 `
+
 
 export const HeadingContact = styled.h1`
 font-family:roboto;
